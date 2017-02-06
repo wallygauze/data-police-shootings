@@ -16,7 +16,7 @@ I include the version of the report as per the end of the course.
 
 .. Goals
 
-__I) Goal : modifying & creating variables when needed (using NLP if needed) to organize the data with the factors suggesting criminality__
+[__I) Goal : modifying & creating variables when needed (using NLP if needed) to organize the data with the factors suggesting criminality__](Part I.ipynb)
 
 __II) Goal: uncover insights in the killings with unsupervised techniques__
 
