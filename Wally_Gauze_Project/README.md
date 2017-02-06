@@ -6,9 +6,9 @@ I include the version of the report as per the end of the course.
 ### Table of contents
 
 
-a. __Approach__
+a. Approach
 
-b. __Goals__
+b. Goals
 
 __I) Goal : modifying & creating variables when needed (using NLP if needed) to organize the data with the factors suggesting criminality__
 
