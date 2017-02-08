@@ -1,3 +1,7 @@
+For Wally Gauze's work, go [here](https://github.com/washingtonpost/data-police-shootings/)
+
+Original
+---
 [This data is published under an [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license](https://creativecommons.org/licenses/by-nc-sa/4.0/)]
 
 # About this story
