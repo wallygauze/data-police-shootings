@@ -1,4 +1,4 @@
-For Wally Gauze's work, go [here](https://github.com/washingtonpost/data-police-shootings/)
+For my (Wally Gauze's) work, go [here](Wally_Gauze_Project)
 
 Original
 ---
