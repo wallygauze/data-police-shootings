@@ -18,6 +18,9 @@ I include the version of the report as per the end of the course.
 
 [__II) Goal: uncovering insights in the killings with unsupervised techniques__](Part II.ipynb)
 
+[+ Natural Language Processing exploration of the descriptions of the cases per cluster)](Part II - NLP_exploration.ipynb)
+
 [__III) Goal -Question: are higher relative numbers of killings mostly correlated to the levels of violent crime?__](Part III.ipynb)
 
 ---
+('+' denotes work done after submission for the GA course)
