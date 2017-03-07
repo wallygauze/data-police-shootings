@@ -20,6 +20,6 @@ I include the version of the report as per the end of the course.
 
 [+ Natural Language Processing exploration of the descriptions of the cases per cluster)](Part II - NLP_exploration.ipynb)
 
-[__III) Goal -Question: are higher relative numbers of killings mostly correlated to the levels of violent crime?__](Part III.ipynb)
+[III) Goal -Question: are higher relative numbers of killings mostly correlated to the levels of violent crime?](Part III.ipynb) (As of today, because of my current focus, I do not plan to do further work on this part, despite its being unfinished)
 
 ---
