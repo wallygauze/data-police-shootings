@@ -23,4 +23,3 @@ I include the version of the report as per the end of the course.
 [__III) Goal -Question: are higher relative numbers of killings mostly correlated to the levels of violent crime?__](Part III.ipynb)
 
 ---
-('+' denotes work done after submission for the GA course)
