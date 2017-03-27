@@ -18,7 +18,7 @@ I include the version of the report as per the end of the course.
 
 [__II) Goal: uncovering insights in the killings with unsupervised techniques__](Part%20II.ipynb)
 
-[__+ Natural Language Processing exploration of the descriptions of the cases per cluster)__](Part%20II%20-%20NLP_exploration.ipynb)
+[__+ Natural Language Processing exploration of the descriptions of the cases per cluster__](Part%20II%20-%20NLP_exploration.ipynb)
 
 
 
