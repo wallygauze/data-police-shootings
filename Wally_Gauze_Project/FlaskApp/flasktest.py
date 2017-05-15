@@ -4,7 +4,7 @@ from scipy.stats import chisquare
 
 app = Flask(__name__)
 
-df_whole = pd.read_csv('fatal-police-shootings-data.csv')
+df_whole = pd.read_csv('../../fatal-police-shootings-data.csv')
 df_whole.race.fillna(value='?', inplace=True)
 # proxy column for countingwith pivot_table
 df_whole['#']=1
