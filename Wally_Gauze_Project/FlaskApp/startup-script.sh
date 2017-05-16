@@ -24,33 +24,33 @@ pip install --upgrade pip virtualenv
 # git requires $HOME and it's not set during the startup script.
 export HOME=/root
 git config --global credential.helper gcloud.sh
-git clone https://source.developers.google.com/p/$PROJECTID /opt/app
+git clone https://source.developers.google.com/p/$PROJECTID /app
 
 # Install app dependencies
-virtualenv /opt/app/7-gce/env
-/opt/app/7-gce/env/bin/pip install -r /opt/app/7-gce/requirements.txt
+virtualenv /FlaskApp/env
+/FlaskApp/env/bin/pip install -r /FlaskApp/requirements.txt
 
 # Make sure the pythonapp user owns the application code
-chown -R pythonapp:pythonapp /opt/app
+chown -R pythonapp:pythonapp /app
 
 # Configure supervisor to start gunicorn inside of our virtualenv and run the
 # application.
-cat >/etc/supervisor/conf.d/python-app.conf << EOF
-[program:pythonapp]
-directory=/opt/app/7-gce
-command=/opt/app/7-gce/env/bin/gunicorn main:app --bind 0.0.0.0:8080
-autostart=true
-autorestart=true
-user=pythonapp
+# cat >/etc/supervisor/conf.d/python-app.conf << EOF
+# [program:pythonapp]
+# directory=/FlaskApp
+# command=/FlaskApp/env/bin/gunicorn main:app --bind 0.0.0.0:8080
+# autostart=true
+# autorestart=true
+# user=pythonapp
 # Environment variables ensure that the application runs inside of the
 # configured virtualenv.
-environment=VIRTUAL_ENV="/opt/app/env/7-gce",PATH="/opt/app/7-gce/env/bin",\
-    HOME="/home/pythonapp",USER="pythonapp"
-stdout_logfile=syslog
-stderr_logfile=syslog
-EOF
+# environment=VIRTUAL_ENV="/env/FlaskApp",PATH="/FlaskApp/env/bin",\
+#     HOME="/home/pythonapp",USER="pythonapp"
+# stdout_logfile=syslog
+# stderr_logfile=syslog
+# EOF
 
-supervisorctl reread
-supervisorctl update
+# supervisorctl reread
+# supervisorctl update
 
 # Application should now be running under supervisor
