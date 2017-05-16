@@ -24,14 +24,14 @@ pip install --upgrade pip virtualenv
 # git requires $HOME and it's not set during the startup script.
 export HOME=/root
 git config --global credential.helper gcloud.sh
-git clone https://source.developers.google.com/p/$PROJECTID /app
+git clone https://source.developers.google.com/p/police-shootings-us/r/default /opt/app
 
 # Install app dependencies
 virtualenv /FlaskApp/env
 /FlaskApp/env/bin/pip install -r /FlaskApp/requirements.txt
 
 # Make sure the pythonapp user owns the application code
-chown -R pythonapp:pythonapp /app
+chown -R pythonapp:pythonapp /opt/app
 
 # Configure supervisor to start gunicorn inside of our virtualenv and run the
 # application.
