@@ -1,4 +1,4 @@
-This folder contains code for prototype online app based on my project's work. (This work is an extension)
+This folder contains code for a prototype online app based on my project's work. (This work is an extension not present in the version of the project I delivered for the course.)
 
 ---
 
@@ -8,7 +8,6 @@ for the three main racial groups in America, generated on the basis of the ‘un
 (which is information as could be found on the WP website), plus statistical insight.)
 
 #### b. Unarmed dead case not featuring an attack nor a violent crime suspect
-(In progress. Beyond the mechanics in a., this involves a custom variable for which scraping and basic Natural Language Processing steps are needed, 
-such as can be seen in Part I (link), under "Data Acquisition".)
+(In progress. Beyond the mechanics in a., this involves a custom variable for which scraping and basic Natural Language Processing steps are needed, such as can be seen in [Part I](../Part%20I.ipynb), under "Data Acquisition".)
 
-(Can be found in Part II (link), under "Race profile for these groups", (2) and (2v2) respectively)
+(The original work this is based on can be found in [Part II](../Part%20II.ipynb), under "Race profile for these groups", sections (2) and (2v2) respectively)
