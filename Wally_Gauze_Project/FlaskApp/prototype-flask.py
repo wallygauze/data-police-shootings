@@ -37,8 +37,8 @@ def show_tables():
     total_positives = df_whole[
         (df_whole["armed"] == "unarmed")].shape[0]
 
-    line1 = "# of unarmed killed: {}".format(df_whole[(df_whole["armed"] == "unarmed")].shape[0])
-    line2 = "% of unarmed killed: {}".format(float(df_whole[(df_whole["armed"] == "unarmed")].shape[0]) / float(df_whole.shape[0]))
+    line1 = "# of deceased unarmed: {}".format(df_whole[(df_whole["armed"] == "unarmed")].shape[0])
+    line2 = "% of deceased unarmed: {}".format(float(df_whole[(df_whole["armed"] == "unarmed")].shape[0]) / float(df_whole.shape[0]))
 
     data = df_whole[(df_whole["armed"] == "unarmed")]
     table1 = pd.DataFrame(data.pivot_table(index='race', values='#', aggfunc=[sum, lambda x:float(sum(x))/float(len(data.race))]))
