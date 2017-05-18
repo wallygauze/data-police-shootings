@@ -119,7 +119,4 @@ ENV/
 # Rope project settings
 .ropeproject
 
-# (Wally) Deployment code on GCP
-startup-script.sh
-
 # End of https://www.gitignore.io/api/macos,python
