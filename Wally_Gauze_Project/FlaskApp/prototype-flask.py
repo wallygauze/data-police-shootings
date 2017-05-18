@@ -1,3 +1,7 @@
+# Basic code for the app. Functionality and fast availability of the app
+# was the focus for the prototype rather than anything else,
+# it will be improved upon.
+
 from flask import Flask, render_template
 import pandas as pd
 from scipy.stats import chisquare
