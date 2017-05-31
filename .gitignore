@@ -122,5 +122,6 @@ ENV/
 ### (Wally)
 # Deployment code on GCP
 startup-script.sh
+automatic_update_of_data/
 
 # End of https://www.gitignore.io/api/macos,python
