@@ -2,7 +2,7 @@ This folder contains code for an informative [prototype online app](https://wall
 
 ---
 
-#### a. Unarmed
+#### a. Unarmed dead case
 (This takes the latest data from this repository (kept up to date via crontab) and generates a succinct comparison report 
 for the three main racial groups in America, generated on the basis of the ‘unarmed’ variable 
 (which is information as could be found on the WP website), plus statistical insight.)
