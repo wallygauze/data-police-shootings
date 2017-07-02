@@ -126,5 +126,6 @@ automatic_update_of_data/
 
 # Development only files
 *.json
+confidential.txt
 
 # End of https://www.gitignore.io/api/macos,python
