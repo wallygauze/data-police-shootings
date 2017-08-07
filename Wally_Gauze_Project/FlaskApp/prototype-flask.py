@@ -48,7 +48,10 @@ def show_tables():
         float(df_whole[(df_whole["armed"] == "unarmed")].shape[0])
         / float(df_whole.shape[0]))
 
+
     data = df_whole[(df_whole["armed"] == "unarmed")]
+
+
     table1 = pd.DataFrame(
         data.pivot_table(
             index='race',
