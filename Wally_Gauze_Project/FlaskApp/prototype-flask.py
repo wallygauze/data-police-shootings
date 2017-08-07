@@ -59,11 +59,10 @@ def show_tables():
     table1.rename(columns={"sum": "count", "<lambda>": "proportion"},
                   inplace=True)
     table2_title = "Proportion of whole respective racial group in dataset"
-    table2 = df_whole[
-        (df_whole["armed"] == "unarmed")
-        ].race.fillna(value="?").value_counts()
-        / df_whole.race.fillna(value="?").value_counts().sort_values(
-            ascending=False)
+    table2 = (df_whole[(df_whole["armed"] == "unarmed")]
+              .race.fillna(value="?").value_counts()
+              / df_whole.race.fillna(value="?")
+              .value_counts().sort_values(ascending=False))
     table2 = pd.DataFrame(table2)
     table2 = pd.DataFrame(table2.race.rename('_'))
 
