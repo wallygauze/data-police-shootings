@@ -13,19 +13,19 @@ df_whole.race.fillna(value='?', inplace=True)
 # proxy column for counting with pivot_table
 df_whole['#'] = 1
 
-# : Race profile for these groups
+# : Race profile for top 3 racial groups
 
 df_whole = df_whole[
     (df_whole["race"] == "W")
     | (df_whole["race"] == "B")
     | (df_whole["race"] == "H")].copy()
 
-# :: For the subsequent Chi-Square tests
+# :: Variables for the subsequent Chi-Square tests
 
 t3_prop = df_whole.pivot_table(
     index='race',
     values='#',
-    aggfunc=lambda x: float(sum(x))/float(len(df_whole.race))).to_dict()['#']
+    aggfunc=lambda x: float(sum(x)) / float(len(df_whole.race))).to_dict()['#']
 t3_count = df_whole.pivot_table(
     index='race',
     values='#',
