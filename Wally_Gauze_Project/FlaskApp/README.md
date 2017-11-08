@@ -1,4 +1,4 @@
-This folder contains code for an informative prototype online app based on my project's work. (This work is an extension not present in the version of the project I delivered for the course.)
+This folder contains code for a prototype online informative app based on my project's work. (This work is an extension not present in the version of the project I delivered for the course.)
 
 ---
 
